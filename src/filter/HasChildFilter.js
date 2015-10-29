@@ -145,7 +145,7 @@
             @returns {Object} returns <code>this</code> so that calls can be chained.
             */
       maxChildren: function(max) {
-        if (min == null) {
+        if (max == null) {
           return filter.has_child.max_children;
         }
 
