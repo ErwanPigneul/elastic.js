@@ -357,11 +357,7 @@
           return highlight.type;
         }
 
-        t = t.toLowerCase();
-        if (t === 'fvh' || t === 'plain' ||
-            t === 'postings') {
-          addOption(oField, 'type', t);
-        }
+        addOption(oField, 'type', t);
 
         return this;
       },
